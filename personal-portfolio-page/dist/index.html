@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Personal Portfolio Page</title>
+  <title>Tiffany Du | Designer &amp; Front-End Developer</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Unica+One%7CWork+Sans:300,600" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body data-spy="scroll" data-target="#main-nav" data-offset="60">
+  <!-- Fixed Navbar -->
+  <nav id="main-nav" class="navbar navbar-default ">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <!-- Menu Toggle -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="glyphicon glyphicon-menu-hamburger"></span>
+        </button>
+        <a class="navbar-brand scroll" href="#top"><img class="pull-left logo" src="https://i.imgur.com/RJId7sk.png" alt="TD Logo" alt="TD Logo"><span>Shannon Ho</span></a>
+      </div>
+      <!-- Collapsible Menu -->
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a class="scroll" href="#top">Home <span class="sr-only">(current)</span></a></li>
+          <li><a class="scroll" href="#about">About Me</a></li>
+          <li><a class="scroll" href="#portfolio"></a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <!-- Jumbotron -->
+  <header id="top" class="jumbotron">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+          <img class="img-responsive center-block logo" src="https://i.imgur.com/RJId7sk.png" alt="SH Logo">
+        </div>
+        <div class="col-xs-12">
+          <h1 class="title">Hi! My name is Shannon.</h1>
+          <p>This site includes pages devoted to my senior projects class. I will be updating it throughout this school year.</p>
+          <p>Nice to meet you.</p>
+          <a class="btn td-btn outline green scroll mt-30" href="#content" title="Learn more about me!"><span class="glyphicon glyphicon-triangle-bottom"></span> Learn more</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Main Content Begins -->
+  <div id="content" class="container-fluid text-center">
+    <!-- About Me Section -->
+    <section id="about" class="row bg-white bg-shadow">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="mb-30">About Me</h1>
+        </div>
+      </div>
+      <div class="row mb-30">
+        <div class="col-xs-12 col-md-3 col-md-offset-1 col-lg-2 col-lg-offset-2">
+          <img class="img-responsive center-block profile mb-30" src="https://i.imgur.com/8gb4xC4.jpg raw=true" alt="Shannon's Profile Photo">
+        </div>
+        <div class="col-sm-8 col-sm-offset-2 col-md-7 col-md-offset-0 col-lg-6 text-left">
+          <h4>Hello there! I am a current senior at DSST: College View High School.</h4>
+          <p>I am from Denver, Colorado. My family is from Vietnam, but I speak Cantonese. I value balance and sustainability in oneself but also to the world. I want to be able to build a safe space for everyone to be free to express oneself without judgment. My dreams is to leave an impact on the world, but specifically, my goal in 12th grade is to further explore ways that I can do that.</p>
+          <p>When I am not studying, you can find me exploring real estate, learning pastry recipes from Hong Kong, or even just simply sitting down with a comfy blanket and reading a good book.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+        <hr class="dashed">
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="row bg-star-y">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="mb-60">Portfolio</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div id="projects" class="carousel slide col-xs-12" data-ride="carousel" data-interval="false">
+          <div class="row">
+             <!-- Carousel Prev Button -->
+            <div class="col-xs-1">
+              <a class="left carousel-control" href="#projects" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+            </div>
+            <div class="col-xs-10">
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <div class="col-sm-7">
+                    <img class="img-responsive center-block mb-30" src="" alt="">
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="carousel-caption card">
+                      <h3></h3>
+                      <h4></h4>
+                      <button class="btn td-btn small outline green" data-toggle="modal" data-target="#tributeModal">View Details</button>
+                    </div>
+                  </div>
+                </div><!-- /.item -->
+                <div class="item">
+                  <div class="col-sm-7">
+                    <img class="img-responsive center-block mb-30" src="" alt="">
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="carousel-caption card">
+                      <h3></h3>
+                      <h4></h4>
+                      <button class="btn td-btn small outline green" data-toggle="modal" data-target="#tmsModal">View Details</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="col-sm-7">
+                    <img class="img-responsive center-block mb-30" src="" alt="">
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="carousel-caption card">
+                      <h3></h3>
+                      <h4></h4>
+                      <button class="btn td-btn small outline green" data-toggle="modal" data-target="#rbModal">View Details</button>
+                    </div>
+                  </div>
+                </div><!-- /.item -->
+              </div><!-- /.carousel-inner -->
+            </div>
+            <div class="col-xs-1">
+              <!-- Carousel Next Button -->
+              <a class="right carousel-control" href="#projects" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div><!-- / Next Btn -->
+            <div class="col-xs-12">
+              <!-- Indicators -->
+              <ol class="carousel-indicators mt-30">
+                <li data-target="#projects" data-slide-to="0" class="active"></li>
+                <li data-target="#projects" data-slide-to="1"></li>
+                <li data-target="#projects" data-slide-to="2"></li>
+              </ol>
+            </div><!-- /.col -->
+          </div><!-- /.row -->
+        </div><!-- /#projects -->
+      </div><!-- /.row -->
+    </section>
+    <!-- Contact Me Section -->
+    <!-- Footer -->
+    <footer class="row text-left bg-honeycomb">
+      <div class="col-xs-12 col-sm-6">
+      </div>
+	<div class="col-xs-12 text-center">
+        <hr class="dashed">
+        <h2>&ndash; Thanks for visiting! &ndash;</h2>
+        <small class="gray"><script type="text/javascript">document.write(new Date().getFullYear());</script> Made with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span></small>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
